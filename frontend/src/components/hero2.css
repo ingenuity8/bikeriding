@@ -1,0 +1,196 @@
+.hero2-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .bike-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .bike-description{
+    padding: 150px 10px;
+    text-align: center;
+    margin-top: -100px;
+
+  }
+  .bike-description h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #000;
+  }
+  
+  .bike-description p {
+    color: #7d7d7d;
+    font-size: 20px;
+    padding-bottom: 22px;
+  }
+  
+  .bike-images {
+    display: flex;
+  }
+  
+  .main-bike-img {
+    width: 600px;
+    margin-right: 160px;
+  }
+  
+  .battery-img {
+    width: 280px;
+    padding: 140px 10px 10px;
+  }
+  
+  .rent-to-own {
+    text-align: center; /* Center-align text, adjust as needed */
+    padding: 2rem; /* Add padding around the container */
+    background-color: #fff; /* Background color */
+    margin-left: -800px;
+  }
+  
+  .rent-to-own h3 {
+    font-size: 22px; /* Font size for the heading */
+    color: #000; /* Text color for the heading */
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+  .rent-to-own p {
+    font-size: 16px; /* Font size for the paragraph */
+    color: #666; /* Text color for the paragraph */
+    margin-top: 0; /* Optional: remove margin above the paragraph */
+    margin-bottom: 20px; /* Space below the paragraph */
+  }
+  
+ 
+  
+  .rent-details, .down-payment, .weekly-payment {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .learn-more-btn {
+    background-color: #faff00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .whats-included {
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .icon-item {
+    text-align: center;
+  }
+  
+  .getting-started {
+    background-color: #faff00;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .steps {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: stretch; /* Ensures that all items have the same height */
+    height: 240px;        /* Fixed height for the container */
+    width: 1300px;        /* Fixed width for the container */
+    gap: 55px;            /* Space between the items */
+  }
+  
+  .step {
+    flex: 1;              /* Flex-grow and flex-shrink are set to 1, ensuring equal sizes */
+    min-width: 0;         /* Ensures that the flex items don’t overflow */
+    background-color: #fff;
+    padding: 1rem;
+    height: 240px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scaling and shadow */
+  }
+  
+  /* Hover effect */
+  .step:hover {
+    transform: scale(1.05); /* Enlarge the box by 10% */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+  
+  
+  .make-booking-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+
+  .image-container {
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    max-width: 700px; /* Optional: restrict the max width */
+    top: 1px;
+    left: 230px;
+    right: 1px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 20%; /* Position the text at the vertical center */
+    left: 8%; /* Position the text at the horizontal center */
+    transform: translate(-50%, -50%); /* Center the text exactly */
+    color: white; /* Text color */
+    font-size: 24px; /* Text size */
+    font-weight: bold; /* Optional: bold text */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); Optional: add shadow for better readability */
+    text-align: center; /* Center the text (useful for multiline text) */
+  }
+
+  .overlay-text-2{
+    text-align: center;
+    font-size: 24px; /* Text size */
+    font-weight: bold; /* Optional: bold text */
+  }
+
+  .overlay-text-2 h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #000;
+  }
+  
+
+  .overlay-text-2 p {
+    color: #7d7d7d;
+    font-size: 20px;
+    padding-bottom: 22px;
+  }
+
+
+
+  
+  

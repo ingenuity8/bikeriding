@@ -1,0 +1,43 @@
+
+.how-it-works {
+    padding: 50px;
+    background-color: #f9f9f9;
+    background-image: url('../images/bicycle.jpg');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #fd0000; /* Sets text color to white for better contrast, if needed */
+}
+
+.how-it-works h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.work-steps {
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.work-step {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 100px;
+    
+}
+
+.work-step img {
+    height: 100px;
+}
+
+.step h3 {
+    font-size: 1.5em;
+}
+
+.step p {
+    font-size: 1em;
+    color: #666;
+}

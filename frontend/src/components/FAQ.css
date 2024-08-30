@@ -16,7 +16,7 @@
 
 
 .faq-item {
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     cursor: pointer;
     padding: 20px;
     background-color: #fff;

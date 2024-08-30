@@ -23,7 +23,7 @@
 }
 
 .faq-item.active {
-    background-color: #fff000; /* Yellow background for active item */
+    background-color: #f7f2ac; /* Yellow background for active item */
 }
 
 .faq-question {
@@ -35,8 +35,7 @@
 }
 
 .faq-arrow {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 15px;
 }
 
 .faq-answer {

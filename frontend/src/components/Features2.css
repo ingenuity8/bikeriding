@@ -27,6 +27,7 @@
   .addons-column h2, .plans-column h2 {
     font-size: 1.5rem;
     margin-bottom: 4rem;
+    color: aliceblue;
   }
   
   .addon-item {

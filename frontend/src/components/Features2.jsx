@@ -3,7 +3,7 @@ import './Features2.css'; // Assuming you have a CSS file for styling
 
 const Features2 = () => {
   return (
-<div className="addons-plans-section">
+        <div className="addons-plans-section">
                 <div className="addons-column">
                     <h2>Available Add-ons in Store</h2>
                     <div className="addon-item">

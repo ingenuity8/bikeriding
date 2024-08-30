@@ -3,7 +3,8 @@
   justify-content: space-between;
   gap: 50px;
   width: 100%;
-  padding: 80px 0;
+  padding: 10px 0;
+  background-image: url('../images/hero2.png');
 }
 
 .addons-column, .plans-column {
@@ -12,18 +13,30 @@
   padding-top: 50px;
 }
 
+.plans-column {
+  padding-top: 10px;
+}
 .addons-column h2, .plans-column h2{
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
+  color: aliceblue;
 }
 
 .addon item{
-  padding-top: 60px;
+  padding-top: 10px;
+}
+
+addon-item h3{
+  color: aliceblue;
+}
+
+addon-item h3, p{
+  color: aliceblue;
 }
 
 .plan-icons {
   padding-top: 20px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 2fr);
   gap: 20px;
 }
 

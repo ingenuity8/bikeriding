@@ -2,7 +2,7 @@
     padding: 50px;
     background-color: #7a62620a;
     background-image: url('../images/bicycle.jpg');
-    height: 80vh;
+    height: 100vh;
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */

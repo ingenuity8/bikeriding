@@ -4,8 +4,10 @@ import './HowItWorks.css';
 
 const HowItWorks = () => {
     return (
+        <>
+
         <section className="how-it-works" id="how-it-works">
-            <h2>How It Works</h2>
+            
             <div className="work-steps">
                 <div className="work-step">
                     {/* <img src="step1.png" alt="Step 1" /> */}
@@ -24,6 +26,7 @@ const HowItWorks = () => {
                 </div>
             </div>
         </section>
+        </>
     );
 };
 

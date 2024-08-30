@@ -8,6 +8,7 @@ import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import Hero2 from './components/hero2';
+import FAQ from './components/FAQ';
 
 const HomePage = () => {
     return (
@@ -15,11 +16,12 @@ const HomePage = () => {
             <Header />
             <Hero />
             <Hero2/>
-            <Features />
+            {/* <Features /> */}
             {/* <Features2/> */}
             <HowItWorks />
             <Pricing />
             <Testimonials />
+            <FAQ/>
             <Footer />
         </div>
     );

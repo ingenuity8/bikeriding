@@ -1,5 +1,6 @@
 .hero2-container {
     color: #333;
+    background-color: #000;
   }
   
   .bike-info {
@@ -99,7 +100,7 @@
   }
   
   .getting-started {
-    background-color: #faff00;
+    background-color: #4998ff;
     padding: 2rem;
     text-align: center;
   }

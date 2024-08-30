@@ -1,94 +1,37 @@
-.hero-section {
-    background-color: #121212; /* Assuming the background is dark */
-    color: white;
-    padding: 2rem;
-  }
-  
-  .addons-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: center;
-  }
-  
-  .addons-column, .plans-column {
-    flex: 2;
-    margin: 0 1rem;
-  }
+.addons-plans-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+  padding: 80px 0;
+}
 
-  .plans-column{
-    .plan-icons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr); /* 3 items in the first row */
-        gap: 1rem; /* Gap between items */
-      }
-  }
-  
-  .addons-column h2, .plans-column h2 {
-    font-size: 1.5rem;
-    margin-bottom: 4rem;
-    color: aliceblue;
-  }
-  
-  .addon-item {
-    margin-bottom: 1rem;
-  }
-  
-  .addon-item h3 {
-    font-size: 1.2rem;
-    margin: 0;
-  }
-  
-  .highlight {
-    color: #F7D701; /* Yellow highlight */
-    font-weight: bold;
-  }
-  
-  .plan-icons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  
-  .plan-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 100px; /* Adjust as needed */
-  }
-  
-  .plan-item i {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  /* Example icon classes, you can replace these with your actual icons */
-  .icon-bike:before {
-    content: '🚴'; /* Replace with actual icon */
-  }
-  
-  .icon-battery:before {
-    content: '🔋'; /* Replace with actual icon */
-  }
-  
-  .icon-maintenance:before {
-    content: '🛠️'; /* Replace with actual icon */
-  }
-  
-  .icon-app:before {
-    content: '📱'; /* Replace with actual icon */
-  }
-  
-  .icon-km:before {
-    content: '📏'; /* Replace with actual icon */
-  }
-  
-  .icon-lock:before {
-    content: '🔒'; /* Replace with actual icon */
-  }
-  
-  .icon-gps:before {
-    content: '📍'; /* Replace with actual icon */
-  }
-  
+.addons-column, .plans-column {
+  flex: 1;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.addons-column h2, .plans-column h2{
+  margin-bottom: 6rem;
+}
+
+.addon item{
+  padding-top: 60px;
+}
+
+.plan-icons {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.plan-item {
+  text-align: center;
+}
+
+.highlight {
+  color: #F7D701;
+  font-weight: bold;
+}

@@ -1,7 +1,8 @@
 .hero {
-    background-color: #000000; /* Black background for entire section */
+    /* background-color: #000000; Black background for entire section */
     color: white;
     padding: 50px;
+    background-image: url('../images/background1.jpg');
 }
 
 .hero-content,

@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css';
+import google from '../images/googleplay.svg';
+import apple from '../images/applestore.svg';
 
 const Footer = () => {
     return (
@@ -48,8 +50,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <img src="australia-flag.png" alt="AU" className="flag-icon" />
-                    <span className="country-code">AU</span>
+                    <img src={google} alt="AU" className="flag-icon" />
+                    <img src={apple} alt="AU" className="flag-icon" />
+                    {/* <span className="country-code">AU</span> */}
                 </div>
             </div>
         </footer>

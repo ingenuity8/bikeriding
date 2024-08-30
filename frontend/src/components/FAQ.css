@@ -1,5 +1,6 @@
 .faq-section {
-    max-width: 800px;
+    max-width: 680px;
+    /* margin-left: 600px; */
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;

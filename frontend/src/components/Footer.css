@@ -64,9 +64,10 @@
 }
 
 .flag-icon {
-    width: 20px;
+    width: 150px;
     height: auto;
     margin-right: 10px;
+    margin-left: 200px;
 }
 
 .country-code {

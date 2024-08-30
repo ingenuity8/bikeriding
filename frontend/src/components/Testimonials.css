@@ -1,5 +1,5 @@
 .testimonials {
-    max-width: 800px;
+    max-width: 680px;
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -62,16 +62,3 @@
     right: -50px;
 }
 
-.owl-nav .owl-prev span::before {
-    content: "";
-    position: absolute;
-    top: 45px;
-    left: 0;
-    border-left: 10px solid transparent;
-    border-right: 0px solid transparent;
-    border-top: 14px solid #303264;
-    z-index: -1;
-}
-*, *::before, *::after {
-    box-sizing: border-box;
-}

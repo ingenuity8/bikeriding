@@ -32,6 +32,10 @@ const FAQ = () => {
     ];
 
     return (
+<>
+        <div>
+
+        </div>
         <section className="faq-section">
             <h2 className="faq-title">Frequently Asked Questions</h2>
             <div className="faq-container">
@@ -48,6 +52,7 @@ const FAQ = () => {
                 ))}
             </div>
         </section>
+        </>
     );
 };
 

@@ -16,10 +16,6 @@
     margin-top: -100px;
 
   }
-  .bike-description h2 {
-    font-size: 40px;
-    color: #000;
-  }
   
   .bike-description p {
     color: #7d7d7d;
@@ -100,9 +96,14 @@
   }
   
   .getting-started {
-    background-color: #042e66;
+    /* background-color: #012452; */
+    background-image: url('../images/hero2.png');
     padding: 2rem;
     text-align: center;
+  }
+
+  .getting-started h1{
+    color: aliceblue;
   }
   
   .steps {
@@ -135,7 +136,8 @@
   
   
   .make-booking-btn {
-    background-color: #000;
+    background-color: #2c5cfc;
+    border-radius: 5px;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -170,6 +172,11 @@
     text-align: center; /* Center the text (useful for multiline text) */
   }
 
+  .overlay-text h2{
+    font-size: 38px;
+    color: #f31818;
+  }
+
   .overlay-text-2{
     text-align: center;
     font-size: 24px; /* Text size */
@@ -178,7 +185,7 @@
 
   .overlay-text-2 h2 {
     font-size: 48px;
-    color: #000;
+    color: #105806;
   }
   
 

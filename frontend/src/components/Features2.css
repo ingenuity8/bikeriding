@@ -16,7 +16,16 @@
 .plans-column {
   padding-top: 10px;
 }
-.addons-column h2, .plans-column h2{
+
+.addons-column h2{
+  color: aliceblue;
+}
+
+.plans-column h2{
+  color: aliceblue;
+}
+
+.plans-column p{
   margin-bottom: 2rem;
   color: aliceblue;
 }
@@ -25,11 +34,11 @@
   padding-top: 10px;
 }
 
-addon-item h3{
+.addon-item h3{
   color: aliceblue;
 }
 
-addon-item h3, p{
+.addon-item p{
   color: aliceblue;
 }
 

@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className="footer-column">
                         <h3>Directory</h3>
                         <ul>
-                            <li><a href="#myzoomo">MyZoomo App</a></li>
+                            <li><a href="#myzoomo">MySAIKIM App</a></li>
                             <li><a href="#buy-a-zoomo">Buy a Zoomo</a></li>
                             <li><a href="#blog">Blog</a></li>
                             <li><a href="#contact-us">Contact Us</a></li>

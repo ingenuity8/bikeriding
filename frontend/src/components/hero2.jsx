@@ -77,38 +77,38 @@ const Hero2 = () => {
           <div className="step">
             <h4>1. Make a booking</h4>
             <p>Reserve a bike online with a down payment.</p>
-            <ul>
+            <ol>
                 <li>Bring a valid government-issued photo identification</li>
                 <li>Proof of address</li>
                 <li>Your debit or credit card for payment</li>
-            </ul>
+            </ol>
           </div>
           <div className="step">
             <h4>2. Pick up your bike</h4>
             <p>Visit the store to collect your bike.</p>
-            <ul>
+            <ol>
                 <li>Bring a valid government-issued photo identification</li>
                 <li>Proof of address</li>
                 <li>Your debit or credit card for payment</li>
-            </ul>
+            </ol>
           </div>
           <div className="step">
             <h4>3. Start riding</h4>
             <p>Begin your e-bike journey on the day of pickup.</p>
-            <ul>
+            <ol>
                 <li>Bring a valid government-issued photo identification</li>
                 <li>Proof of address</li>
                 <li>Your debit or credit card for payment</li>
-            </ul>
+            </ol>
           </div>
           <div className="step">
             <h4>4. Need help?</h4>
             <p>We're here for support and maintenance.</p>
-            <ul>
+            <ol>
                 <li>Bring a valid government-issued photo identification</li>
                 <li>Proof of address</li>
                 <li>Your debit or credit card for payment</li>
-            </ul>
+            </ol>
           </div>
         </div>
         <button className="make-booking-btn">Make a Booking</button>

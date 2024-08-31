@@ -110,6 +110,7 @@
     display: flex;
     margin-top: 60px;
     margin-bottom: 50px;
+    text-decoration: none;
     justify-content: space-between;
     align-items: stretch; /* Ensures that all items have the same height */
     height: 240px;        /* Fixed height for the container */
@@ -128,6 +129,9 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scaling and shadow */
   }
   
+  .step h4{
+    font-size: 18px;
+  }
   /* Hover effect */
   .step:hover {
     transform: scale(1.05); /* Enlarge the box by 10% */

@@ -10,7 +10,7 @@ const locationApp = () => {
             <div className="content-wrapper">
                 <div className="left-section">
                     <h2>Discover the</h2>
-                    <h1>Saikim Mobility App</h1>
+                    <h1>SAIKIM Mobility App</h1>
                     <div className="app-icons">
                         <div className="app-store">
                             <img src={google} alt="Get it on Google Play" />

@@ -81,6 +81,8 @@ const Hero2 = () => {
                 <li>Bring a valid government-issued photo identification</li>
                 <li>Proof of address</li>
                 <li>Your debit or credit card for payment</li>
+                <li>Proof of address</li>
+                <li>Your debit or credit card for payment</li>
             </ol>
           </div>
           <div className="step">
@@ -88,6 +90,8 @@ const Hero2 = () => {
             <p>Visit the store to collect your bike.</p>
             <ol>
                 <li>Bring a valid government-issued photo identification</li>
+                <li>Proof of address</li>
+                <li>Your debit or credit card for payment</li>
                 <li>Proof of address</li>
                 <li>Your debit or credit card for payment</li>
             </ol>
@@ -99,6 +103,8 @@ const Hero2 = () => {
                 <li>Bring a valid government-issued photo identification</li>
                 <li>Proof of address</li>
                 <li>Your debit or credit card for payment</li>
+                <li>Proof of address</li>
+                <li>Your debit or credit card for payment</li>
             </ol>
           </div>
           <div className="step">
@@ -106,6 +112,8 @@ const Hero2 = () => {
             <p>We're here for support and maintenance.</p>
             <ol>
                 <li>Bring a valid government-issued photo identification</li>
+                <li>Proof of address</li>
+                <li>Your debit or credit card for payment</li>
                 <li>Proof of address</li>
                 <li>Your debit or credit card for payment</li>
             </ol>

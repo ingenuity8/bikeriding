@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import Hero2 from './components/hero2';
 import FAQ from './components/FAQ';
+import LocationApp from './components/LocationApp';
 
 const HomePage = () => {
     return (
@@ -18,8 +19,10 @@ const HomePage = () => {
             <Features2/>
             <HowItWorks />
             <Hero2/>
+            <LocationApp/>
             {/* <Features /> */}
             {/* <Pricing /> */}
+            
             <Testimonials />
             <FAQ/>
             <Footer />

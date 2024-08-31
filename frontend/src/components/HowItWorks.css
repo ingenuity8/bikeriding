@@ -1,8 +1,44 @@
 .how-it-works {
+    position: relative;
+    height: 100vh;
+    background-color: #fff; /* Default background color */
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.how-it-works::before {
+    content: '';
+    position: absolute;
+    bottom: -200px;
+    left: -50%; /* Adjust to start the tilt from outside the view */
+    width: 200%; /* Increase the width to cover the full component width when tilted */
+    height: 50%;
+    background-color: rgb(37, 150, 255);
+    transform: rotate(-5deg); /* Tilt the line */
+    transform-origin: top left; /* Set the origin to top left to tilt properly */
+    z-index: 0;
+}
+
+
+.how-it-works::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: url('../images/features-wheel.webp') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.how-it-works {
     padding: 50px;
     background-color: #7a62620a;
     /* background-image: url('../images/bicycle.jpg'); */
-    height: 100vh;
+    height: 80vh;
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -18,9 +54,9 @@
     border: 2px solid #cccccc25; /* Outer box */
     padding: 20px;
     border-radius: 10px;
-    max-width: 800px;
+    max-width: 100px;
     margin: 0 auto;
-    background-color: #f9f9f93f;
+    background-color: #f9f9f9;
 }
 
 .work-steps {
@@ -38,9 +74,9 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    background-color: #ffffffc7;
+    background-color: #ffffff;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.651);
     width: 500px;
     position: relative;
 }

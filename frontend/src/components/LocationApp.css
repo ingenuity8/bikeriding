@@ -1,0 +1,95 @@
+.myzoomo-app {
+    position: relative;
+    background-color: #000;
+    padding: 50px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* To ensure the hill doesn't cause overflow */
+}
+
+.myzoomo-app::before {
+    content: '';
+    position: absolute;
+    bottom: -130px;
+    left: 0;
+    width: 400%; /* Make it wide enough to cover the screen even when rotated */
+    height: 50%;
+    background-color: #2596ff; /* Blue color */
+    transform: rotate(-5deg); /* Adjust this angle for the hill effect */
+    transform-origin: bottom left; /* Set the origin to the bottom left to make it climb */
+    z-index: 0;
+}
+
+.content-wrapper {
+    position: relative; /* To keep the content above the pseudo-element */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    z-index: 1; /* Ensure content stays above the background */
+}
+
+.left-section {
+    max-width: 30%;
+    text-align: center;
+}
+
+.left-section h2 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.left-section h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.app-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.app-store img {
+    width: 150px;
+}
+
+.middle-section {
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-section {
+    max-width: 30%;
+}
+
+.right-section ul {
+    padding: 50px;
+    text-align: left;
+}
+
+.right-section li {
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.right-section li .icon {
+    margin-right: 10px;
+}
+
+.right-section span {
+    font-size: 16px;
+    color: #ccc;
+    padding-left: 12px;
+}

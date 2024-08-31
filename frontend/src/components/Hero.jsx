@@ -13,7 +13,7 @@ const Hero = () => {
             </div>
 
             {/* Features Cards */}
-            <div className="features-cards">
+            {/* <div className="features-cards">
                 <div className="card boost">
                     <div className="card-header">
                         <h3>Boost</h3>
@@ -59,7 +59,7 @@ const Hero = () => {
                         <button>BOOK NOW</button>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* Add-ons and Plans Section */}
             

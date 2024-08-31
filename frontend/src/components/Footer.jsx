@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import image from '../images/bike-riding.jpg'
 import google from '../images/googleplay.svg';
 import apple from '../images/applestore.svg';
 
@@ -8,7 +9,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="container">
                 <div className="footer-logo">
-                    <img src="logo.png" alt="Zoomo Logo" />
+                    <img src={image} alt="Zoomo Logo" />
                 </div>
                 <div className="footer-links">
                     <div className="footer-column">

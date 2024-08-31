@@ -16,10 +16,9 @@ const HomePage = () => {
             <Header />
             <Hero />
             <Features2/>
+            <HowItWorks />
             <Hero2/>
             {/* <Features /> */}
-            
-            <HowItWorks />
             {/* <Pricing /> */}
             <Testimonials />
             <FAQ/>

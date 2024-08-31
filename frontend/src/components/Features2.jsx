@@ -1,5 +1,13 @@
 import React from 'react';
 import './Features2.css'; // Assuming you have a CSS file for styling
+import unlimitedKM from '../images/features/unlimitedKM.png'
+import cycle from '../images/features/cycle.png'
+import battery from '../images/features/battery.png'
+import services from '../images/features/services.png'
+import lock from '../images/features/lock.png'
+import app from '../images/features/app.png'
+import GPS from '../images/features/GPS.png'
+import customer from '../images/features/customer.png'
 
 const Features2 = () => {
   return (
@@ -19,33 +27,48 @@ const Features2 = () => {
                 <div className="plans-column">
                     <h2>All of our plans include</h2>
                     <div className="plan-icons">
+                   
                         <div className="plan-item">
-                            <i className="icon-bike"></i>
+                        <img src={cycle} alt="" class="plan-item"/>
+                            {/* <i className="icon-bike"></i> */}
                             <p>E-Bike</p>
                         </div>
                         <div className="plan-item">
-                            <i className="icon-battery"></i>
+                        <img src={battery} alt="" class="icon-battery"/>
+                            {/* <i className="icon-battery"></i> */}
                             <p>Battery 17Ah, up to 9 hours</p>
                         </div>
                         <div className="plan-item">
-                            <i className="icon-maintenance"></i>
+                        <img src={services} alt="" class="icon-maintenance"/>
+                            {/* <i className="icon-maintenance"></i> */}
                             <p>Maintenance Service</p>
                         </div>
                         <div className="plan-item">
-                            <i className="icon-app"></i>
-                            <p>Access to Zoomo App</p>
+                        <img src={app} alt="" class="icon-app"/>
+                            {/* <i className="icon-app"></i> */}
+                            <p>Access to Saikim App</p>
                         </div>
                         <div className="plan-item">
-                            <i className="icon-km"></i>
+                            <img src={GPS} alt="" class="icon-km"/>
+                            {/* <i img={} className="icon-km"></i> */}
                             <p>Unlimited KM</p>
                         </div>
                         <div className="plan-item">
-                            <i className="icon-lock"></i>
+                        <img src={lock} alt="" class="icon-lock"/>
+                            {/* <i className="icon-lock"></i> */}
                             <p>Lock</p>
                         </div>
+                        
                         <div className="plan-item">
-                            <i className="icon-gps"></i>
+                        <img src={unlimitedKM} alt="" class="icon-gps"/>
+                            {/* <i className="icon-gps"></i> */}
                             <p>GPS Tracking</p>
+                        </div>
+
+                        <div className="plan-item">
+                        <img src={customer} alt="" class="icon-customer"/>
+                            {/* <i className="icon-gps"></i> */}
+                            <p>Customer Support</p>
                         </div>
                     </div>
                 </div>

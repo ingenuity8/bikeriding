@@ -1,17 +1,17 @@
 import React from 'react';
 import './hero2.css';
-import image1 from '../images/biking1.avif';
-import battery from '../images/battery.png';
+// import image1 from '../images/biking1.avif';
+// import battery from '../images/battery.png';
 
 const Hero2 = () => {
   return (
     <div className="hero2-container">
       {/* Top Section: Bike Info */}
-      <div className="bike-info">
-        <div className="bike-description">
+      {/* <div className="bike-info">
+        <div className="bike-description"> */}
           {/* <h2>Specifically designed for delivery</h2>
           <p>Battery 17 Ah</p> */}
-          <div class="image-container">
+          {/* <div class="image-container">
            <img src={image1} alt="" class="image"/>
            <div class="overlay-text">
             <h2>Specifically designed for delivery</h2>
@@ -28,7 +28,7 @@ const Hero2 = () => {
 
            </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Rent-to-Own Section */}
       {/* <div className="rent-to-own">

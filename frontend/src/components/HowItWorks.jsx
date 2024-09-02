@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './HowItWorks.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 // import bicycle from '../images/bicycle.jpg'
 
 const HowItWorks = () => {
+    useEffect(()=> {
+        Aos.init();
+    },[])
     return (
         <>
 
         <section className="how-it-works" id="how-it-works">
             
-            <div className="work-steps">
-                <div className="work-step">
+            <div className="work-steps" data-aos = "fade-right">
+                <div className="work-step"  >
                     {/* <img src="step1.png" alt="Step 1" /> */}
                     <h3>Choose Your Bike</h3>
                     <p>Select the perfect bike for your needs.</p>

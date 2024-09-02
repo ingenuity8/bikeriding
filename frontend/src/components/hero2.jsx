@@ -1,9 +1,15 @@
-import React from 'react';
+import React,{ useEffect } from 'react';
 import './hero2.css';
+
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 // import image1 from '../images/biking1.avif';
 // import battery from '../images/battery.png';
 
 const Hero2 = () => {
+  useEffect(()=> {
+    Aos.init();
+},[])
   return (
     <div className="hero2-container">
       {/* Top Section: Bike Info */}
@@ -73,8 +79,8 @@ const Hero2 = () => {
       {/* Getting Started Section */}
       <div className="getting-started">
         <h1>Getting Started</h1>
-        <div className="steps">
-          <div className="step">
+        <div className="steps" >
+          <div className="step" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000">
             <h4>1. Make a booking</h4>
             <p>Reserve a bike online with a down payment.</p>
             <ol>
@@ -85,7 +91,7 @@ const Hero2 = () => {
                 <li>Your debit or credit card for payment</li>
             </ol>
           </div>
-          <div className="step">
+          <div className="step" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000">
             <h4>2. Pick up your bike</h4>
             <p>Visit the store to collect your bike.</p>
             <ol>
@@ -96,7 +102,7 @@ const Hero2 = () => {
                 <li>Your debit or credit card for payment</li>
             </ol>
           </div>
-          <div className="step">
+          <div className="step" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000">
             <h4>3. Start riding</h4>
             <p>Begin your e-bike journey on the day of pickup.</p>
             <ol>
@@ -107,7 +113,7 @@ const Hero2 = () => {
                 <li>Your debit or credit card for payment</li>
             </ol>
           </div>
-          <div className="step">
+          <div className="step" data-aos="flip-left" data-aos-anchor-placement="top-center" data-aos-duration="1000">
             <h4>4. Need help?</h4>
             <p>We're here for support and maintenance.</p>
             <ol>

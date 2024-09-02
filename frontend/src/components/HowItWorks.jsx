@@ -13,7 +13,7 @@ const HowItWorks = () => {
 
         <section className="how-it-works" id="how-it-works">
             
-            <div className="work-steps" data-aos = "fade-right">
+            <div className="work-steps" data-aos = "fade-right" data-aos-duration="1000">
                 <div className="work-step"  >
                     {/* <img src="step1.png" alt="Step 1" /> */}
                     <h3>Choose Your Bike</h3>

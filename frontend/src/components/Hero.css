@@ -2,7 +2,7 @@
     color: white;
     padding: 10px;
     background-color: #000;
-    background-image: url('../images/bg1.png');
+    background-image: url('../images/background/bg01.png');
     height: 150vh;
     background-size: 1400px 1050px; /* Ensures the image covers the entire section */
     background-position: top center; /* Aligns the top of the image with the top of the section */
@@ -123,5 +123,3 @@
     cursor: pointer;
     font-weight: bold;
 }
-
-

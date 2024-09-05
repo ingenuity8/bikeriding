@@ -18,8 +18,8 @@ const Header = () => {
                 </ul>
             </nav>
             <div className="header-buttons">
-                <button className="login-btn">Login</button>
-                <button className="signup-btn">Sign Up</button>
+                {/* <button className="login-btn">Login</button> */}
+                <button className="signup-btn">Strategy Partner In India</button>
             </div>
         </header>
     );

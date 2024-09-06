@@ -1,33 +1,23 @@
 import React from 'react';
+import HomePage from './pages/HomePage';
 import Header from './components/header';
-import Hero from './components/Hero';
-// import Features from './components/Features';
-import Features2 from './components/Features2';
-import HowItWorks from './components/HowItWorks';
-// import Pricing from './components/Pricing';
-import Testimonials from './components/Testimonials';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Gallery from './pages/gallery';
 import Footer from './components/Footer';
-import Hero2 from './components/hero2';
-import FAQ from './components/FAQ';
-import LocationApp from './components/LocationApp';
 
-const HomePage = () => {
+const App = () => {
     return (
         <div>
+            <BrowserRouter>
             <Header />
-            <Hero />
-            <Features2/>
-            <HowItWorks />
-            <Hero2/>
-            <LocationApp/>
-            {/* <Features /> */}
-            {/* <Pricing /> */}
-            
-            <Testimonials />
-            <FAQ/>
+            <Routes>
+                <Route path='/' element={<HomePage/>}/>
+                <Route path='/gallery' element={<Gallery/>}/>
+            </Routes>
             <Footer />
+            </BrowserRouter>
         </div>
     );
 };
 
-export default HomePage;
+export default App;
